@@ -129,15 +129,19 @@
       font-weight: 400;
     }
 
-    /* ── Section headings inside exp detail ── */
+    /* ── Section headings inside exp detail AND project cards ── */
     .exp-section-heading {
       display: block;
-      font-size: 11px;
+      font-size: 10px;
       font-weight: 600;
-      letter-spacing: 0.18em;
+      letter-spacing: 0.28em;
       text-transform: uppercase;
-      color: var(--rose);
-      margin: 28px 0 10px;
+      color: var(--navy);
+      background: var(--rose-light);
+      padding: 7px 14px;
+      border-radius: 6px;
+      margin: 32px 0 12px;
+      border-left: 3px solid var(--rose);
     }
   </style>
 </head>
@@ -459,6 +463,55 @@
 
     <div class="cards-wrap">
       <div class="v-stack">
+
+        <!-- rhode: India Market Entry -->
+        <div class="proj-card">
+          <div class="proj-card-img rose-bg">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none"><circle cx="30" cy="22" r="12" stroke="#C0A8A2" stroke-width="1" stroke-dasharray="3 2"/><path d="M18 46 C18 36 42 36 42 46" stroke="#C0A8A2" stroke-width="1" fill="none"/><circle cx="30" cy="22" r="5" fill="#EDE0DD" opacity="0.5"/></svg>
+          </div>
+          <div class="proj-card-body">
+            <span class="r-card-tag">Strategy · Market Entry</span>
+            <h3 class="r-card-title">rhode: Strategic India Market Entry</h3>
+            <p style="font-size:12px;font-style:italic;color:#ABABAB;margin-bottom:10px;font-weight:300;">Sole Strategist & Analyst · 15-Slide Executive Pitch Deck · June–July 2026</p>
+            <p class="r-card-desc">A solo-built market entry strategy for rhode's first move into India — designed to convert an already-thriving grey market into a controlled, premium, brand-safe launch. I combined macroeconomic data, social listening, proxy reseller analytics, and competitive benchmarking to recommend a phased, partner-led omnichannel model that reclaims demand already paying 60–100% import markups — without diluting the scarcity and restraint that makes rhode valuable.</p>
+
+            <p class="exp-section-heading" style="margin-top:20px;">Why rhode</p>
+            <p class="r-card-desc">I didn't want a generic case study on Nike or Apple. rhode is a genuine paradox — a brand built on extreme restraint (under 20 SKUs, zero traditional ad spend) that just sold for $1B, now under pressure to scale globally without losing the minimalism that made it worth $1B in the first place. The India grey market made it a real, active business problem, not a hypothetical.</p>
+
+            <p class="exp-section-heading">Key Findings</p>
+            <p class="r-card-desc">The problem isn't awareness — rhode's Indian social following is massive. The problem is control. An entire cottage industry of freight forwarders and Instagram resellers are monetising demand rhode isn't capturing. My strategy reframes this: don't build brand awareness, take back channel ownership. Enter through one exclusive prestige partner (Nykaa Luxe or Tira), hero-SKU first, no discounting — mirroring the Charlotte Tilbury and Rare Beauty India playbook exactly.</p>
+
+            <p class="exp-section-heading">How My Strategy Differs</p>
+            <p class="r-card-desc">Most student case studies recommend going wide fast — dot-in DTC site, nationwide retail, full catalog. I rejected all three. Instead: one partner, online-first, 4–6 hero SKUs, global price parity achieved by absorbing the 40% customs duty through e.l.f.'s supply chain scale. Ubiquity kills luxury. Scarcity is the moat.</p>
+
+            <div class="pill-row">
+              <span class="pill">Market Strategy</span>
+              <span class="pill">Competitive Analysis</span>
+              <span class="pill">Consumer Research</span>
+              <span class="pill">Go-To-Market</span>
+              <span class="pill">Brand Strategy</span>
+            </div>
+
+            <a href="assets/Rhode-IndiaMarketEntry_CaseStudy.pdf" target="_blank" rel="noopener"
+               style="
+                 display: inline-flex; align-items: center; gap: 8px;
+                 margin-top: 24px;
+                 font-family: 'Inter', sans-serif;
+                 font-size: 11px; font-weight: 500; letter-spacing: 0.14em;
+                 text-transform: uppercase; text-decoration: none;
+                 color: #fff;
+                 background: var(--navy);
+                 padding: 12px 22px; border-radius: 8px;
+                 transition: background 0.2s;
+               "
+               onmouseover="this.style.background='var(--rose)'"
+               onmouseout="this.style.background='var(--navy)'"
+            >
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              View Case Study
+            </a>
+          </div>
+        </div>
 
         <!-- Weatherly -->
         <div class="proj-card">
