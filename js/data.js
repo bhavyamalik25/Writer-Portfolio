@@ -93,6 +93,19 @@ const EXP_DATA = {
 /* ─── PROJECTS DATA ─────────────────────────────────────────── */
 const PROJECTS_DATA = [
   {
+    id:       'rhode',
+    tag:      'Strategy · Market Entry',
+    tagClass: '',
+    title:    'rhode: Strategic India Market Entry',
+    subtitle: 'Executive Market Entry Strategy · 15-Slide Pitch Deck',
+    desc:     "A solo-built market entry strategy for rhode's first move into India — designed to convert an already-thriving grey market into a controlled, premium, brand-safe launch. Combining macroeconomic data, social listening, and competitive analysis to recommend a phased, partner-led omnichannel model.",
+    pills:    ['Market Strategy', 'Competitive Analysis', 'Consumer Research', 'Go-To-Market', 'Brand Strategy'],
+    pillClass:'',
+    caseStudy: 'assets/Rhode-IndiaMarketEntry_CaseStudy.pdf',
+    iconBg:   'rose-bg',
+    icon:     `<svg width="60" height="60" viewBox="0 0 60 60" fill="none"><circle cx="30" cy="20" r="12" stroke="#C0A8A2" stroke-width="1" stroke-dasharray="3 2"/><path d="M18 44 C18 34 42 34 42 44" stroke="#C0A8A2" stroke-width="1" fill="none"/><circle cx="30" cy="20" r="5" fill="#EDE0DD" opacity="0.5"/></svg>`
+  },
+  {
     id:       'weatherly',
     tag:      'Data · Visualisation',
     tagClass: 'blue',
